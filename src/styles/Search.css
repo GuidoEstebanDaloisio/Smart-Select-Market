@@ -1,0 +1,19 @@
+.search-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  
+  .search-container input {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .search-container button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

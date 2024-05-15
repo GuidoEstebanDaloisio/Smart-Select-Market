@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    padding: 1rem;
+    
+    /* esto ayuda a que el sitio se vea responsivo */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+
+    gap: 1rem;
+    background-image: url(/photo.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 92vh;
+    margin: 0;
+
+}
